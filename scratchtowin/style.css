@@ -100,10 +100,9 @@
 }
 .copy-button{
     position: absolute;
-    right: -20px;
+    right: 20px;
     z-index: 1;
-    cursor: pointer;
-    top: 5px;
+    
     
 }
 .opacitiy1{
@@ -120,12 +119,21 @@
     
   }
   #coupon-text{position:absolute;
-    line-height: 37px;
+    
     left: 45px;
 }
   #promo img{
       display:none!important
     }
+    #promo{
+        
+    background-color: rgb(234, 234, 234)!important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+      }
   body {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
